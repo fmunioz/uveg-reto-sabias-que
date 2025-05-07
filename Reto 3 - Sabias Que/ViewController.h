@@ -1,15 +1,14 @@
-//
-//  ViewController.h
-//  Reto 3 - Sabias Que
-//
-//  Created by Forte Apps on 19/07/20.
-//  Copyright © 2020 UVEG. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) UILabel *factLabel;
+@property (nonatomic, strong) UIButton *motoButton;
+@property (nonatomic, strong) UIButton *hikingButton;
+@property (nonatomic, strong) UIButton *homeButton;
+@property (nonatomic, strong) UIButton *nextFactButton;
+@property (nonatomic, strong) NSString *selectedCategory;
+@property (nonatomic, strong) NSDictionary *facts;
+@property (nonatomic, assign) NSInteger currentIndex;
 
 @end
-
